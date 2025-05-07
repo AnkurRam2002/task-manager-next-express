@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import api from '../../../api/axiosInstance';
+import api from '../../api/axiosInstance';
 
 export default function TaskDetails() {
   const [task, setTask] = useState(null);
