@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import api from '../../api/axiosInstance';
+import api from '../api/axiosInstance';
 import TaskCard from '../../components/TaskCard';
 
 export default function Tasks() {

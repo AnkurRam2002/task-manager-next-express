@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import api from '../../api/axiosInstance';
+import api from '../api/axiosInstance';
 import { useRouter } from 'next/navigation';
 import { removeToken } from '../../utils/auth';
 
